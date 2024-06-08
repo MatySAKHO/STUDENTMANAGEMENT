@@ -1,0 +1,311 @@
+{
+  "students": [
+    {
+      "prenom": "Aminata",
+      "nom": "Diop",
+      "sexe": "Feminin",
+      "dateNaissance": "2003-02-14",
+      "classe": "Terminale",
+      "serie": "L2",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "prenom": "Moustapha",
+      "nom": "Seck",
+      "sexe": "Masculin",
+      "dateNaissance": "2004-07-09",
+      "classe": "Première",
+      "serie": "S1"
+    },
+    {
+      "id": 3,
+      "prenom": "Fatou",
+      "nom": "Ndiaye",
+      "sexe": "Feminin",
+      "dateNaissance": "2005-11-25",
+      "classe": "Seconde",
+      "serie": "L2"
+    },
+    {
+      "id": 4,
+      "prenom": "Ousmane",
+      "nom": "Gueye",
+      "sexe": "Masculin",
+      "dateNaissance": "2003-05-03",
+      "classe": "Terminale",
+      "serie": "S2"
+    },
+    {
+      "id": 5,
+      "prenom": "Awa",
+      "nom": "Ba",
+      "sexe": "Feminin",
+      "dateNaissance": "2004-09-18",
+      "classe": "Première",
+      "serie": "L1"
+    },
+    {
+      "id": 6,
+      "prenom": "Cheikhou",
+      "nom": "Faye",
+      "sexe": "Masculin",
+      "dateNaissance": "2005-03-30",
+      "classe": "Seconde",
+      "serie": "S1"
+    },
+    {
+      "id": 7,
+      "prenom": "Coumba",
+      "nom": "Diouf",
+      "sexe": "Feminin",
+      "dateNaissance": "2003-08-12",
+      "classe": "Terminale",
+      "serie": "L2"
+    },
+    {
+      "id": 8,
+      "prenom": "Amadou",
+      "nom": "Diaw",
+      "sexe": "Masculin",
+      "dateNaissance": "2004-12-27",
+      "classe": "Première",
+      "serie": "S2"
+    },
+    {
+      "id": 9,
+      "prenom": "Mariama",
+      "nom": "Sarr",
+      "sexe": "Feminin",
+      "dateNaissance": "2005-06-05",
+      "classe": "Seconde",
+      "serie": "L1"
+    },
+    {
+      "id": 10,
+      "prenom": "Ibrahima",
+      "nom": "Kane",
+      "sexe": "Masculin",
+      "dateNaissance": "2003-10-21",
+      "classe": "Terminale",
+      "serie": "S1"
+    },
+    {
+      "id": 11,
+      "prenom": "Khady",
+      "nom": "Sene",
+      "sexe": "Feminin",
+      "dateNaissance": "2004-04-08",
+      "classe": "Première",
+      "serie": "L2"
+    },
+    {
+      "id": 12,
+      "prenom": "Moussa",
+      "nom": "Thiam",
+      "sexe": "Masculin",
+      "dateNaissance": "2005-01-15",
+      "classe": "Seconde",
+      "serie": "S2"
+    },
+    {
+      "id": 13,
+      "prenom": "Aida",
+      "nom": "Camara",
+      "sexe": "Feminin",
+      "dateNaissance": "2003-07-29",
+      "classe": "Terminale",
+      "serie": "L1"
+    },
+    {
+      "id": 14,
+      "prenom": "Babacar",
+      "nom": "Diouf",
+      "sexe": "Masculin",
+      "dateNaissance": "2004-11-03",
+      "classe": "Première",
+      "serie": "S1"
+    },
+    {
+      "id": 15,
+      "prenom": "Aissatou",
+      "nom": "Diallo",
+      "sexe": "Feminin",
+      "dateNaissance": "2005-04-20",
+      "classe": "Seconde",
+      "serie": "L2"
+    },
+    {
+      "id": 16,
+      "prenom": "Mamadou",
+      "nom": "Sow",
+      "sexe": "Masculin",
+      "dateNaissance": "2003-09-07",
+      "classe": "Terminale",
+      "serie": "S2"
+    },
+    {
+      "id": 17,
+      "prenom": "Maimouna",
+      "nom": "Dieng",
+      "sexe": "Feminin",
+      "dateNaissance": "2004-02-24",
+      "classe": "Première",
+      "serie": "L1"
+    },
+    {
+      "id": 18,
+      "prenom": "Abdoulaye",
+      "nom": "Cisse",
+      "sexe": "Masculin",
+      "dateNaissance": "2005-08-11",
+      "classe": "Seconde",
+      "serie": "S1"
+    },
+    {
+      "id": 19,
+      "prenom": "Ndey",
+      "nom": "Mbaye",
+      "sexe": "Feminin",
+      "dateNaissance": "2003-12-28",
+      "classe": "Terminale",
+      "serie": "L2"
+    },
+    {
+      "id": 20,
+      "prenom": "Malick",
+      "nom": "Gaye",
+      "sexe": "Masculin",
+      "dateNaissance": "2004-06-13",
+      "classe": "Première",
+      "serie": "S2"
+    },
+    {
+      "id": 21,
+      "prenom": "Sokhna",
+      "nom": "Sy",
+      "sexe": "Feminin",
+      "dateNaissance": "2005-10-31",
+      "classe": "Seconde",
+      "serie": "L1"
+    },
+    {
+      "id": 22,
+      "prenom": "Oumar",
+      "nom": "Dia",
+      "sexe": "Masculin",
+      "dateNaissance": "2003-03-17",
+      "classe": "Terminale",
+      "serie": "S1"
+    },
+    {
+      "id": 23,
+      "prenom": "Rama",
+      "nom": "Fall",
+      "sexe": "Feminin",
+      "dateNaissance": "2004-08-05",
+      "classe": "Première",
+      "serie": "L2"
+    },
+    {
+      "id": 24,
+      "prenom": "Abdou",
+      "nom": "Kone",
+      "sexe": "Masculin",
+      "dateNaissance": "2005-12-22",
+      "classe": "Seconde",
+      "serie": "S2"
+    },
+    {
+      "id": 25,
+      "prenom": "Safietou",
+      "nom": "Toure",
+      "sexe": "Feminin",
+      "dateNaissance": "2003-06-09",
+      "classe": "Terminale",
+      "serie": "L1"
+    },
+    {
+      "id": 26,
+      "prenom": "Pape",
+      "nom": "Seck",
+      "sexe": "Masculin",
+      "dateNaissance": "2004-10-26",
+      "classe": "Première",
+      "serie": "S1"
+    },
+    {
+      "id": 27,
+      "prenom": "Daba",
+      "nom": "Samb",
+      "sexe": "Feminin",
+      "dateNaissance": "2005-02-13",
+      "classe": "Seconde",
+      "serie": "L2"
+    },
+    {
+      "id": 28,
+      "prenom": "Mor",
+      "nom": "Diallo",
+      "sexe": "Masculin",
+      "dateNaissance": "2003-07-30",
+      "classe": "Terminale",
+      "serie": "S2"
+    },
+    {
+      "id": 29,
+      "prenom": "Ndeye",
+      "nom": "Balde",
+      "sexe": "Feminin",
+      "dateNaissance": "2004-01-19",
+      "classe": "Première",
+      "serie": "L1"
+    },
+    {
+      "id": 30,
+      "prenom": "Khadim",
+      "nom": "Gomis",
+      "sexe": "Masculin",
+      "dateNaissance": "2005-05-06",
+      "classe": "Seconde",
+      "serie": "S1"
+    },
+    {
+      "id": 31,
+      "prenom": "Adja",
+      "nom": "Sall",
+      "sexe": "Feminin",
+      "dateNaissance": "2003-11-23",
+      "classe": "Terminale",
+      "serie": "L2"
+    },
+    {
+      "id": 32,
+      "prenom": "Cheikh",
+      "nom": "Ndoye",
+      "sexe": "Masculin",
+      "dateNaissance": "2004-04-10",
+      "classe": "Première",
+      "serie": "S2"
+    },
+    {
+      "prenom": "Maty",
+      "nom": "SAKHO",
+      "sexe": "Feminin",
+      "dateNaissance": "2023-09-25",
+      "classe": "Terminale",
+      "serie": "S1",
+      "id": 33
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

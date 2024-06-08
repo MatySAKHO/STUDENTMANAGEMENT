@@ -1,0 +1,126 @@
+<nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+        <h2 class="text-light primary py-3">Lycée d'Excellence de Dakar</h2>
+        <div class="d-flex">
+            <button class="btn btn-success" (click)="addStudentForm()" data-bs-toggle="modal" data-bs-target="#exampleModal">Ajouter</button>&nbsp;
+            <!--button class="btn btn-warning">Deconnexion</button -->
+        </div>
+    </div>
+</nav>
+
+<!-- table des eleves-->
+<table class="table mt-4">
+    <thead>
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">Prenom</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Sexe</th>
+            <th scope="col">Date de Naissance</th>
+            <th scope="col">Classe</th>
+            <th scope="col">Serie</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of allStudents">
+            <td>{{student.id}}</td>
+            <td>{{student.prenom}}</td>
+            <td>{{student.nom}}</td>
+            <td>{{student.sexe}}</td>
+            <td>{{student.dateNaissance}}</td>
+            <td>{{student.classe}}</td>
+            <td>{{student.serie}}</td>
+            <td>
+                <button class="btn btn-info" (click)="editStudentForm(student)" data-bs-toggle="modal" data-bs-target="#exampleModal">Modifier</button>&nbsp;
+                <button class="btn btn-danger" (click)="deleteStudent(student)">Supprimer</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div style="background-color: blue;" class="modal-header">
+        <h5 style="color:aliceblue; font-size:20px;margin-left:62px;font-weight:620;" class="modal-title"
+          id="exampleModalLabel">Gerer un eleve</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="formValue">
+          <div class="form-group">
+            <label for="prenomInput">Prenom</label>
+            <input type="text" formControlName="prenom" class="form-control" id="prenomInput"
+              aria-describedby="prenomHelp" placeholder="votre prenom">
+            <small *ngIf="formValue.get('prenom')?.invalid && formValue.get('prenom')?.touched" class="text-danger">Ce
+              champ est obligatoire</small>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="nomInput">Nom</label>
+            <input type="text" formControlName="nom" class="form-control" id="nomInput"
+              aria-describedby="nomHelp" placeholder="votre nom">
+            <small *ngIf="formValue.get('nom')?.invalid && formValue.get('nom')?.touched" class="text-danger">Ce champ
+              est obligatoire</small>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="sexeSelect">Sexe</label>
+            <select formControlName="sexe" class="form-control" id="sexeSelect">
+              <option value="Masculin">Masculin</option>
+              <option value="Feminin">Feminin</option>
+            </select>
+            <small *ngIf="formValue.get('sexe')?.invalid && formValue.get('sexe')?.touched" class="text-danger">Ce champ
+              est obligatoire</small>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="dateNaissanceInput">Date de Naissance</label>
+            <input type="date" formControlName="dateNaissance" class="form-control" id="dateNaissanceInput"
+              aria-describedby="dateNaissanceHelp" placeholder="votre date de naissance">
+            <small *ngIf="formValue.get('dateNaissance')?.invalid && formValue.get('dateNaissance')?.touched"
+              class="text-danger">Ce champ est obligatoire</small>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="classeSelect">Classe</label>
+            <select formControlName="classe" class="form-control" id="classeSelect">
+              <option value="Terminale">Terminale</option>
+              <option value="Première">Première</option>
+              <option value="Seconde">Seconde</option>
+            </select>
+            <small *ngIf="formValue.get('classe')?.invalid && formValue.get('classe')?.touched" class="text-danger">Ce
+              champ est obligatoire</small>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="serieSelect">Serie</label>
+            <select formControlName="serie" class="form-control" id="serieSelect">
+              <option value="S">S</option>
+              <option value="L">L</option>
+              <option value="T">T</option>
+              <option value="S1">S1</option>
+              <option value="S2">S2</option>
+              <option value="S3">S3</option>
+              <option value="T1">T1</option>
+              <option value="T2">T2</option>
+              <option value="L1">L1</option>
+              <option value="L2">L2</option>
+            </select>
+            <small *ngIf="formValue.get('serie')?.invalid && formValue.get('serie')?.touched" class="text-danger">Ce champ
+              est obligatoire</small>
+          </div>
+        </form>
+      </div>
+      <div style="background-color: blue;" class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fermer</button>
+        <button *ngIf="showAdd" type="button" (click)="addStudent()" class="btn btn-success">Ajouter</button>
+        <button *ngIf="showUpdate" type="button" (click)="updateStudent()" class="btn btn-success">Mise a jour</button>
+      </div>
+    </div>
+  </div>
+  </div>
